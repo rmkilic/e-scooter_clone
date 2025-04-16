@@ -8,15 +8,14 @@ class GreenBackgroundPainter extends CustomPainter {
     final paint = Paint()
       ..color = ConsColor.turquoiseGreen
       ..style = PaintingStyle.fill;
-      //..maskFilter = MaskFilter.blur(BlurStyle.normal, convertRadiusToSigma(12));
 
     final path = Path();
     path.moveTo(0, size.height - size.height*.16);
-    path.lineTo(size.width * 0.65, size.height * 0.33); // Ön teker hizası
-    path.lineTo(size.width, size.height * 0.44); // Yukarı geçiş noktası
-    path.lineTo(size.width, 0);                       // Sağ üst
-    path.lineTo(size.width, size.height);             // Sağ alt
-    path.lineTo(0, size.height);                      // Sol alt geri
+    path.lineTo(size.width * 0.65, size.height * 0.33); 
+    path.lineTo(size.width, size.height * 0.44); 
+    path.lineTo(size.width, 0);                      
+    path.lineTo(size.width, size.height);            
+    path.lineTo(0, size.height);                      
     path.close();
 
     canvas.drawPath(path, paint);
