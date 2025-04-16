@@ -1,16 +1,64 @@
-# e_scooter
+# 🛴 E-Scooter UI Clone (Flutter)
 
-A new Flutter project.
+Bu proje, [Figma](https://www.figma.com/design/NzFOl2rhOCiHt6LMKkGrYa/E-scooter-App-UI--Community-?node-id=15-126&t=5yQaBzrA7csgzT4x-0) üzerinde yayınlanan modern bir e-scooter uygulama tasarımından ilham alınarak Flutter ile geliştirilmiştir. 
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- 🗺️ **Google Maps entegrasyonu** (`google_maps_flutter`)
+- 🛣️ **Rota çizimi** (`flutter_polyline_points`)
+- 🌙 **Özel harita teması** (dark mode)
+- 📍 **Özgün marker ikonları**
+- 🖋️ **Özelleştirilmiş yazı tipi ve tema kullanımı**
+- 📍 **Statik konum verileri** ile örnek harita senaryosu
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🗺️ Harita Özellikleri
+
+- **Harita Sağlayıcı:** Google Maps (SDK for Android)
+- **API Servisi:** Directions API (rota çizimi)
+- **Kütüphaneler:**
+  - [`google_maps_flutter`](https://pub.dev/packages/google_maps_flutter)
+  - [`flutter_polyline_points`](https://pub.dev/packages/flutter_polyline_points)
+- **Harita teması:** `assets/map_style_dark.json` üzerinden özelleştirildi.
+
+---
+
+## 🎨 Tasarım Uyarlamaları
+
+- Yazı tipi temaları Flutter'ın varsayılan `TextTheme` yapısına uymadığı için proje özelinde yeniden tanımlandı.
+- Kullanılan fontlar:  
+  - [Inter](https://fonts.google.com/specimen/Inter)  
+  - [Poppins](https://fonts.google.com/specimen/Poppins)
+
+---
+
+## 📁 Gizlenen Dosyalar
+
+Güvenlik nedeniyle aşağıdaki dosyalar `.gitignore` ile dışlandı ve paylaşılmadı:
+
+- `lib/constant/app_constant.dart`  
+  → Google API anahtarı içeriyor.
+- `android/app/src/main/AndroidManifest.xml`  
+  → Google Maps API anahtarı içeriyor.
+
+---
+
+## 🖼️ Ekran Görüntüleri
+
+| Ana Harita Ekranı | Scooter Detayları | Rota Gösterimi |
+|-------------------|--------------------|----------------|
+| ![Ekran 1](assets/screenshot/ss_home.jpg) | ![Ekran 2](assets/screenshot/ss_map.jpg) | ![Ekran 3](assets/screenshot/ss_scooter.jpg) |
+
+---
+
+## 📎 Kaynak Tasarım
+
+Tasarım Figma üzerinden alınmıştır:  
+🔗 [E-scooter App UI - Figma](https://www.figma.com/design/NzFOl2rhOCiHt6LMKkGrYa/E-scooter-App-UI--Community-?node-id=15-126&t=5yQaBzrA7csgzT4x-0)
+
+---
+
+
