@@ -48,7 +48,7 @@ Güvenlik nedeniyle aşağıdaki dosyalar `.gitignore` ile dışlandı ve payla�
 
 ## 🖼️ Ekran Görüntüleri
 
-| Ana Harita Ekranı | Scooter Detayları | Rota Gösterimi |
+| Ana Ekran | Rota Gösterimi | Scooter Detayları |
 |-------------------|--------------------|----------------|
 | ![Ekran 1](assets/screenshot/ss_home.jpg) | ![Ekran 2](assets/screenshot/ss_map.jpg) | ![Ekran 3](assets/screenshot/ss_scooter.jpg) |
 
